@@ -1,10 +1,20 @@
 ﻿# ForkifyJS
 
-A restaurant website made with vanilla JS during the JS advanced course with Jonas Schmedtmann. Created early 2019. 
+A restaurant website made with vanilla JS during the JS advanced course with Jonas Schmedtmann. Built early 2019. 
 
-Created using JS ES+, OPP, AJAX,Webpack NPM, Babel and ES6 modules. Implemented project architeture with MVC.
+Built with:
+JS ES+,
+OPP, 
+AJAX,
+Webpack,
+NPM, 
+Babel,
+ES6 modules. 
 
-To run the project :
+Implemented project architeture with MVC.
+
+To run this project :
+
 NPM:"scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
