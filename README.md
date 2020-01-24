@@ -1,8 +1,11 @@
 ﻿# ForkifyJS
 
+### About the project:
+
 A restaurant website made with vanilla JS during the JS advanced course with Jonas Schmedtmann. Built early 2019. 
 
-Built with:
+### Built with:
+
 JS ES6+,
 OPP, 
 AJAX,
@@ -13,7 +16,7 @@ ES6 modules.
 
 Implemented project architeture with MVC.
 
-To run this project :
+### To run this project :
 
 NPM:"scripts": {
     "dev": "webpack --mode development",
@@ -21,6 +24,7 @@ NPM:"scripts": {
     "start": "webpack-dev-server --mode development --open"
   },
   
+ #### Screenshots
 
 ![Captura de Tela_20200124121114](https://user-images.githubusercontent.com/44758312/73081458-6ba9ba00-3ea6-11ea-9db5-d48a976aa1bb.png)
 
