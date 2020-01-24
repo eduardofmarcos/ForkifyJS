@@ -3,7 +3,7 @@
 A restaurant website made with vanilla JS during the JS advanced course with Jonas Schmedtmann. Built early 2019. 
 
 Built with:
-JS ES+,
+JS ES6+,
 OPP, 
 AJAX,
 Webpack,
