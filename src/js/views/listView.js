@@ -1,11 +1,10 @@
-import {elements} from './base';
+import { elements } from "./base";
 
 /***** Shopping List View *****/
 
 //method to render the shoppping list of a choosed item on UI
 export const renderItem = item => {
-    const markUp = 
-      `
+  const markUp = `
         <li class="shopping__item" data-itemid=${item.id}>
             <div class="shopping__count">
                 <input type="number" value="${item.count}" step="${item.count}" class="shopping__count-value">
@@ -19,11 +18,11 @@ export const renderItem = item => {
             </button>
         </li>
     `;
-        elements.shoppingList.insertAdjacentHTML('beforeend', markUp);
+  elements.shoppingList.insertAdjacentHTML("beforeend", markUp);
 };
 
- //method to delete the shoppping list of a choosed item on UI, based on ID 
+//method to delete the shoppping list of a choosed item on UI, based on ID
 export const deleteItem = id => {
-    const item = document.querySelector(`[data-itemid="${id}"]`);
-    if(item) item.parentElement.removeChild(item);
+  const item = document.querySelector(`[data-itemid="${id}"]`);
+  if (item) item.parentElement.removeChild(item);
 };
